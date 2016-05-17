@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+
+    <Button
+            android:layout_width="100dip"
+            android:layout_height="wrap_content"
+            android:id="@+id/translate"
+            android:text="平移"
+            android:gravity="center"
+            android:textSize="30px"
+    />
+
+    <TextView
+        android:layout_width="100dip"
+        android:layout_height="wrap_content"
+        android:id="@+id/integrated_action"
+        android:text="综合动画"
+        android:gravity="center"
+        android:textSize="30px"
+        android:background="@color/colorPrimary"/>
+
+        <com.examole.selfdefination.Sincurve
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:id="@+id/surface_view"
+            />
+
+
+</LinearLayout>
